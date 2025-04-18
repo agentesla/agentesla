@@ -1,253 +1,85 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="agentesla biolink ">
-    <link href="css/css.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/emojis/1053871704948080690.webp?size=96">
-    <title>@agentesla</title>
-    <style>
-        #overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #fff;
-            font-size: 24px;
-            z-index: 9999;
-            cursor: pointer;
-        }
+<!DOCTYPE html><html lang="en-US"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="C:\Users\agentesla">
+    <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/1255692212717752513/1336981015943446598/Untitled487_20250107180320.png?ex=68040b5a&is=6802b9da&hm=793643fce77e30de2b85513480896fc7edce8aa586ccfd7a04f8d39d1d2570af&=&format=webp&quality=lossless&width=967&height=976">
 
-        #overlay.hidden {
-            display: none;
-        }
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-        .diamond {
-            width: 22px; /* Adjust size as needed */
-            height: 23px; /* Adjust size as needed */
-            filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px white); /* Adjust glow intensity */
-        }
 
-        .dev {
-            width: 22px; /* Adjust size as needed */
-            height: 23px; /* Adjust size as needed */
-            filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px white); /* Adjust glow intensity */
-        }
-        
-        .verified-badge {
-            width: 22px; /* Adjust size as needed */
-            height: 23px; /* Adjust size as needed */
-            filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px white); /* Adjust glow intensity */
-        }
-        .owner-badge {
-            width: 22px; /* Adjust size as needed */
-            height: 23px; /* Adjust size as needed */
-            filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px white); /* Adjust glow intensity */
-        }
-        .nitro {
-            width: 22px; /* Adjust size as needed */
-            height: 23px; /* Adjust size as needed */
-            filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px white); /* Adjust glow intensity */
-        }
+  </head>
 
-        .connections-badge {
-            width: 22px; /* Adjust size as needed */
-            height: 23px; /* Adjust size as needed */
-            filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px white); /* Adjust glow intensity */
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .profile-view-count {
-            text-align: center;
-            color: #fff;
-            align-items: center;
-        }
-        .eye-icon {
-            margin-right: 10px;
-            width: 20px;
-            height: 20px;
-            vertical-align: middle;
-        }
-        #viewCount {
-            font-size: 18px;
-            font-weight: bold;
-            vertical-align: middle;
-        }
-    </style>
-</head>
-<body style="background-image: url('https://www.wallpaperflare.com/static/759/331/664/nyc-greyscale-photo-calm-wallpaper.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
-<div id="overlay">
-    click
-</div>
-<main>
+  <body>
     <div class="container">
-        <div class="audio-bg">
-            <a id="audio-control">
-                <svg fill="#d8d8d8" width="18px" height="18px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m2 7.5v3c0 .8.6 1.5 1.4 1.5h2.3l3.2 2.8c.1.1.3.2.4.2s.2 0 .3-.1c.2-.1.4-.4.4-.7v-.9l-7.2-7.2c-.5.2-.8.8-.8 1.4zm8 2v-5.8c0-.3-.1-.5-.4-.7-.1 0-.2 0-.3 0s-.3 0-.4.2l-2.8 2.5-4.1-4.1-1 1 3.4 3.4 5.6 5.6 3.6 3.6 1-1z" fill-rule="evenodd"></path></svg>
-            </a>
-            <audio id="myAudio" loop="" muted="">
-                <source src="https://audio.jukehost.co.uk/SZoWUlJAaKopUdxKLSanI77P2YnZrvKU" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+      <header class="terminal-header">
+        <div class="prompt-container">
+          <span class="prompt">C:\Users\agentesla</span>
         </div>
-        <div class="profile-container">
-            <div class="card">
-                <div class="pfp">
-                    <img src="https://cdn.discordapp.com/attachments/1355213015028469902/1362494272078876672/communityIcon_x4lqmqzu1hi81.jpg?ex=6802992c&is=680147ac&hm=7e9d73e48618775ffa56b673531170a192d338d064b3f41febb06bdb3b605409&">
-                </div>
-                <div class="username">
-                    <a>agentesla</a>
-                </div>
+      </header>
+      <section id="main_content">
+        <link rel="shortcut icon" type="image/x-icon" href="https://files.catbox.moe/629uhy.png">
 
-                <div class="status">
-                    <a id="typewriter" class="typewriter"></a>
-                </div>
+<p>hello. you may know me as i do content creation and malware analysis and termination. I love cybersecurity, programming and reverse engineering.</p>
 
-                <div class="badges-container">
-                    <div class="badges">
+<p>im 14 and yet ive recently started engaging in the virtual world. have a chat with me on <a href="https://discord.com/users/1355205031636500605">discord</a>.</p>
 
-                        <div class="tooltip" data-text="Owner">
-                            <img class="owner-badge" src="images/owner.png">
-                        </div>
+<h3 id="what-is-this">what is this?</h3>
 
-                        <div class="tooltip" data-text="Developer">
-                            <img class="dev" src="images/dev.png">
-                        </div>
+<p>this is my biolink to learn more about me. so you should stay tuned for more updates.</p>
 
-                        <div class="tooltip" data-text="Premium">
-                            <img class="diamond" src="images/dia.png">
-                        </div>
+<h1 id="how it all started">how it all started
+</a></h1>
 
-                        <div class="tooltip" data-text="Nitro since 13 April 2025">
-                            <img class="nitro" src="images/nitro.png">
-                        </div>
+<p>it all started when i got my first computer. it was a rustbox. literally. it was just upgraded from windows vista, intel core i2, 2gb ddr3.
+  in basic terms, it was agonising. i was 11 at the time so i would usually play website games or roblox (20 fps). as you might of guessed through basic human intelligence
+i could not play popular games back then available through computers. but as my father would work using his computer i was fascinated. i wanted to know how it worked and
+not to be perplexed throughout, considering computing is a very tubular and confusing subject.</p>
 
-                        <div class="tooltip" data-text="Available">
-                            <img class="connections-badge" src="images/connections.png">
-                        </div>
+<h1 id="firstsight">first sight</a></h1>
 
-                    </div>
-                </div>
-                <div class="links-container">
-                    <div class="links">
-                        <div class="link" id="connection">
-                            <p>YouTube</p>
-                            <div class="link-content">
-                                <h4>@74x2</h4>
-                                <a href="https://youtube.com/@74x2" target="_blank">
-                                    <div class="tooltip" data-text="View Link">
-                                        <svg width="20px" height="20px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="none">
-                                            <path stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 3h7v7M27.5 4.5L20 12M17 5H8a3 3 0 00-3 3v16a3 3 0 003 3h16a3 3 0 003-3v-9"></path>
-                                        </svg>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="link" id="connection">
-                          <p>Discord</p>
-                          <div class="link-content">
-                              <h4>@agentesla</h4>
-                              <a href="https://discord.com/users/1355205031636500605" target="_blank">
-                                  <div class="tooltip" data-text="View Link">
-                                  <svg width="20px" height="20px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="none">
-                                  <path stroke="#d8d8d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 3h7v7M27.5 4.5L20 12M17 5H8a3 3 0 00-3 3v16a3 3 0 003 3h16a3 3 0 003-3v-9"></path>
-                                </svg>
-                                  </div>
-                              </a>
-                          </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div></main>
+<p>the first major step to my small career. uncover it. it was around october of 2024. i was chilling through youtube, when i watch NTTS's one discord video. 
+  as the so called skid i used to be it was a pysilon video. i was so amazed throughout the general aspects of a rat and how c2's can connect through RAT's. 
+  i started to learn more about these discord affiliated RAT's and how it works. until i see <a href="https://youtube.com/@144braincells">144braincells</a> and intelligent
+  backend developer completely nuking a pysilon gooning server. it was hilarious. and interesting. i joined their server as the alias aphid (old username). 
+  and gave malcious files to warfin and 144. the server had around 80 members. i remember sitting back and watching 144 nuke a bollocks solara server ratting 
+  inoccent kids and teens going through life. 
+</p>
 
-<script>
-    const audio = document.getElementById("myAudio");
-    const audioControl = document.getElementById("audio-control");
+<h1 id="scamreports"><a href="https://discord.gg/e56KDAJJf7">scamreports</a></h1>
 
-    audioControl.addEventListener("click", () => {
-        if (audio.paused) {
-            audio.muted = false;
-            audio.play();
-            audioControl.innerHTML = `<svg fill='#d8d8d8' width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m2 7.5v3c0 .8.6 1.5 1.4 1.5h2.3l3.2 2.8c.1.1.3.2.4.2s.2 0 .3-.1c.2-.1.4-.4.4-.7v-.9l-7.2-7.2c-.5.2-.8.8-.8 1.4zm8 2v-5.8c0-.3-.1-.5-.4-.7-.1 0-.2 0-.3 0s-.3 0-.4.2l-2.8 2.5-4.1-4.1-1 1 3.4 3.4 5.6 5.6 3.6 3.6 1-1z" fill-rule="evenodd"/></svg>`;
-        } else {
-            audio.muted = true;
-            audio.pause();
-            audioControl.innerHTML = `<svg width="18px" height="18px" viewBox="-1 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Dribbble-Light-Preview" transform="translate(-65.000000, -3803.000000)" fill="#d8d8d8"><g id="icons" transform="translate(56.000000, 160.000000)"><path d="M18.074,3650.7335 L12.308,3654.6315 C10.903,3655.5815 9,3654.5835 9,3652.8985 L9,3645.1015 C9,3643.4155 10.903,3642.4185 12.308,3643.3685 L18.074,3647.2665 C19.306,3648.0995 19.306,3649.9005 18.074,3650.7335" id="play-[#1000]"></path></g></g></g></svg>`;
-        }
-    });
+<p>scamreports was my first ever project. i made it with a fellow underaged german (cybr)who first attempted to rat me with discord rat 2.0
+  eventually warfin persuaded me to be fine with him as he "changed". as this seemed good, once we had around 30ish members to our surprise we got 2 boosts.
+  i was overly excited as i never received any server boosts. cybr was sad. he blamed the boosters for boosting our server and not his. this partly 
+  represented his ego and general jealousy of greed. since then id prevented trusting him for this small act of personality. besides a couple weeks later
+  he would spam gore and porn. it was diabolical considering his age. 13. later i banned him as i would never expect this. the trans booster who
+  said he would boost my server to level 3 if we continue running this community LEFT and blammed for being "unfair" and so left confused since. 
+  to their surprise weeks later my server peaked. i had around one thousand members that joined via my youtube. it was great however id come 
+  across some degenerates; such as san. san was an admin as i hosted a giveaway whoever gave me nitro would get admin. this so called admin
+  would ask people for their cc's and be a total creep skidding all his code all at the age of 10 i reported him and got his account banned
+  for generally being underage and a discord average degenerate o needs to go outside and think of what he is doing. however i faced a different 
+  complete and utter retard when a bisexual so called "120braincells" who glazed me wanted to affiliate and engage with me. this bisexual weirdo
+  had a bio link service as he never started a discord server on it i requested to become a developer and make this site big. it all went great
+  i created the logo the server and everything. for that time he was known as the site developer and i was the advertisement and server developer.
+  nothing wrong occured until Aspect from the exposing community would begin a DDOS. this DDOS would BSOD 120braincells many times. to the point
+  where 120 would get blackmailed into giving me skid role and wipe me from the team for no reason. as 120 is a puupet and chatgpt unintelligent
+  fucktard he did so. as a normal developer he could of shut down the site and add security and better backend protection for obvious reasons.
+  however this wasnt the case. also mentioning cybr, he was convicted of using xworm and already mentioned discord rat. he is a <a href="https://youtube.com/@cybr08">content creator</a>
+  who uploads cringe youtube content for youtube shorts. honestly these 2 made me lose braincells.
 
-    const overlay = document.getElementById("overlay");
+</p>
 
-    overlay.addEventListener("click", () => {
-        overlay.classList.add("hidden");
-        audio.muted = false;
-        audio.play();
-    });
-</script>
+<h1 id="Links">Links</a></h1>
 
-<script>
-    var txt = 'scamreports and exposing';
-    var speed = 70;
-    var eraseSpeed = 80;
-    var loopCount = 0;
-    var maxLoop = 0;
-    var forward = true;
+<p><a href="https://youtube.com/@74x2">YouTube</a>
+  <a href="https://github.com/agentesla">GitHub</a>
+  <a href="https://discord.gg/e56KDAJJf7">scamreports</a>
+  <a href="https://discord.com/users/1355205031636500605">Discord</a>
+  <a href="mailto:agentesla@proton.me">Mail</a>
 
-    function typeWriter() {
-        var typewriter = document.getElementById("typewriter");
-        var textLength = txt.length;
-
-        if (forward) {
-            if (typewriter.innerHTML.length < textLength) {
-                typewriter.innerHTML += txt.charAt(typewriter.innerHTML.length);
-                setTimeout(typeWriter, speed);
-            } else {
-                forward = false;
-                setTimeout(typeWriter, speed * 3);
-            }
-        } else {
-            if (typewriter.innerHTML.length > 0) {
-                typewriter.innerHTML = typewriter.innerHTML.slice(0, -1);
-                setTimeout(typeWriter, eraseSpeed);
-            } else {
-                forward = true;
-                setTimeout(typeWriter, speed * 3);
-            }
-        }
-    }
-
-    window.onload = function() {
-        typeWriter();
-    };
-</script>
-
-<script>
-    // Get the count from localStorage or set to 0 if not present
-    let count = localStorage.getItem('profileViews') || 0;
-
-    // Function to update the count
-    function updateCount() {
-        count++; // Increment count
-        document.getElementById('viewCount').textContent = count;
-        localStorage.setItem('profileViews', count); // Update localStorage
-    }
-
-    // Call updateCount() function to update count on page load
-    updateCount();
-</script>
-
+</p>
 
 </body></html>
