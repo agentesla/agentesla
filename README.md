@@ -8,11 +8,11 @@ im a new developer studying malware re and av python, i love threat intelligence
 
 ## Skills
 
-`HTML`
-`Batch`
-`Python`
-`DC Bot Development`
-`HTTP -R termination`
+### `HTML`
+### `Batch`
+### `Python`
+### `DC Bot Development`
+### `HTTP -R termination`
 
 <div align="center">
 <img width="50%"><img width="80%" src="https://awesome-github-stats.azurewebsites.net/user-stats/ensomg?cardType=github&theme=github-dark&showIcons=false&preferLogin=false&Border=DD272700&Ring=ffffff&Title=ffffff&Background=DD272700">
