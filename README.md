@@ -1,4 +1,4 @@
-# `C:\Users\agenisi`
+[96m # `C:\Users\agenisi`
 `im a new developer studying malware re and av python, i love threat intelligence and reverse engineering`
 
 ## skills ):
