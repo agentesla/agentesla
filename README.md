@@ -1,11 +1,12 @@
 <div align="center">
-<img width="80%" src= "https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=ffffff&center=true&width=435&lines=1337;agenisi;agenisi">
+<img width="80%" src= "https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=ffffff&center=true&width=435&lines=@96h0;agenisi;agenisi">
 </div>
 
-[96m # `C:\Users\agenisi` 
-`im a new developer studying malware re and av python, i love threat intelligence and reverse engineering`
+ # `C:\Users\agenisi` 
 
-## skills ):
+im a new developer studying malware re and av python, i love threat intelligence and reverse engineering
+
+## Skills
 
 `HTML`
 `Batch`
