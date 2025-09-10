@@ -11,7 +11,6 @@ im a new developer studying malware re and av python, i love threat intelligence
 ### `HTML`
 ### `Batch`
 ### `Python`
-### `Next.js`
 
 <div align="center">
 <img width="50%"><img width="80%" src="https://awesome-github-stats.azurewebsites.net/user-stats/agentesla?cardType=github&theme=github-dark&showIcons=false&preferLogin=false&Border=DD272700&Ring=ffffff&Title=ffffff&Background=DD272700">
